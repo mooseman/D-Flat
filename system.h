@@ -5,7 +5,7 @@
 #if MSC | WATCOM
 #include <direct.h>
 #else
-#include <dir.h>
+#include <dirent.h>
 #endif
 
 #define swap(a,b){int x=a;a=b;b=x;}
