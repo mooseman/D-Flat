@@ -1,0 +1,33 @@
+I have done some changes to use DFLAT unter WATCOM-C with DOS4GW.
+It runs pretty good.
+Maximum Text-Length is defined in dflat.h
+#define MAXTEXTLEN 5000000U /* maximum text buffer            */
+
+
+There is up to now one fault in LISTBOX (Window does not always close)
+
+New Edit-Box for the input of Values is added.
+
+You should install a global structure of type MinMaxValue for the 
+Value-Boxes in that you can define the Min, Max, Step and type.
+
+Min     is the allowed min-value
+Max     is the allowed max-value
+Diff    if the increase-value for the up-key of the decrease-value for the down-key
+Int     shows, if you allow real ("." and "e") or not
+
+	on pressing PgUp Or PgDn you will go to Max or Min
+
+
+typedef struct MinMaxValue {
+        double Min;
+        double Max;
+        BOOL  Int;
+        double Diff;
+        } * MINMAXVALUE;
+
+
+Look for a short exapmle in test.c
+
+Martin Weghaus / Waldbuettelbrunn / Germany
+weghaus.wu@noell.de

@@ -1,0 +1,81 @@
+cd e:\ctest\df_386
+wmake -f e:\ctest\df_386\df_386.mk -h -e
+wcc386 APPLICAT.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 BARCHART.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 BOX.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 BUTTON.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 CALENDAR.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 CHECKBOX.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 CLIPBORD.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 COMBOBOX.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 CONFIG.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 CONSOLE.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+CONSOLE.C(92): Warning! W101: Non-portable pointer conversion
+wcc386 DECOMP.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+DECOMP.C(23): Warning! W202: Symbol 'cp' has been defined, but not referenced
+wcc386 DFALLOC.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+DFALLOC.C(7): Warning! W202: Symbol 'wnd' has been defined, but not referenced
+wcc386 DIALBOX.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+DIALBOX.C(830): Warning! W202: Symbol 'cp' has been defined, but not referenced
+DIALBOX.C(840): Warning! W202: Symbol 'endptr' has been defined, but not referenced
+DIALBOX.C(841): Warning! W202: Symbol 'mmi' has been defined, but not referenced
+DIALBOX.C(840): Warning! W202: Symbol 'tex' has been defined, but not referenced
+DIALBOX.C(843): Warning! W202: Symbol 'i' has been defined, but not referenced
+DIALBOX.C(873): Warning! W202: Symbol 'cp' has been defined, but not referenced
+DIALBOX.C(888): Warning! W202: Symbol 'rtn' has been defined, but not referenced
+DIALBOX.C(894): Warning! W202: Symbol 'db' has been defined, but not referenced
+DIALBOX.C(897): Warning! W100: Parameter 3 contains inconsistent levels of indirection
+wcc386 DIRECT.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 EDITBOX.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 EDITOR.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 FILEOPEN.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+FILEOPEN.C(176): Warning! W202: Symbol 'StripPath' has been defined, but not referenced
+wcc386 HELPBOX.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+HELPBOX.C(315): Warning! W202: Symbol 'HelpLength' has been defined, but not referenced
+wcc386 HTREE.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 KEYS.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 LISTBOX.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 LISTS.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 LOG.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 MENU.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 MENUBAR.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 MESSAGE.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 MOUSE.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 MSGBOX.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 NORMAL.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 PICTBOX.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 POPDOWN.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 RADIO.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 RECT.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 SEARCH.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 SLIDEBOX.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 SPINBUTT.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 STATBAR.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 SYSMENU.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 TEST.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+TEST.C(12): Warning! W301: No prototype found for 'strcpy'
+wcc386 TEXT.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 TEXTBOX.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 VALUEBOX.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+VALUEBOX.C(67): Warning! W202: Symbol 'i' has been defined, but not referenced
+VALUEBOX.C(134): Warning! W202: Symbol 'i' has been defined, but not referenced
+VALUEBOX.C(200): Warning! W202: Symbol 'i' has been defined, but not referenced
+VALUEBOX.C(228): Warning! W202: Symbol 'i' has been defined, but not referenced
+VALUEBOX.C(258): Warning! W107: Missing return value for function 'SetMinMax'
+VALUEBOX.C(276): Warning! W202: Symbol 'rtn' has been defined, but not referenced
+wcc386 VIDEO.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 WATCH.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+WATCH.C(7): Warning! W202: Symbol 'i' has been defined, but not referenced
+wcc386 WINDOW.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+%create df_386.lb1
+wlib -b -c -n -q -p=512 df_386.lib @df_386.lb1
+wcc386 DIALOGS.C -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wcc386 memopad.c -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+memopad.c(628): Warning! W202: Symbol 'TempMinMax' has been defined, but not referenced
+memopad.c(629): Warning! W202: Symbol 'endptr' has been defined, but not referenced
+memopad.c(629): Warning! W202: Symbol 'Tempstr' has been defined, but not referenced
+memopad.c(632): Warning! W202: Symbol 'ct' has been defined, but not referenced
+wcc386 menus.c -i=e:\WATCOM\h -w4 -e25 -s -zq -otexan -ol -oa -oe20 -d2 -fp3 -fpi87 -5r -bt=dos -mf
+wlink d all SYS dos4g op m op st=6k op maxe=25 op q op symf @memo_386.lk1
+ 
+Execution complete
